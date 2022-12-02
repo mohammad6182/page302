@@ -6,16 +6,16 @@ using System.Threading.Tasks;
 
 namespace page302
 {
-    class Employee : Person
+    abstract class Person
     {
-        public override void FirstName()
+        public abstract void FirstName();
+      
+
+        public void LastName()
         {
-            Console.WriteLine("SayNAme is : ");
-            Console.ReadLine();
+            Console.WriteLine("Smith");
         }
+
+        
     }
-
-    
-
-    
 }
